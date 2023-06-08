@@ -81,16 +81,16 @@ services:
       - 995:995/tcp
     container_name: external_mail
 
-  # web_public:
-  #   build:
-  #     context: ./Public/web_public/
-  #     dockerfile: Dockerfile
-  #   ports:
-  #     - 80:80/tcp
-  #     - 443:443/tcp
-  #   # links:
-  #   #   - database
-  #   container_name: web_public
+  web_public:
+    build:
+      context: ./Public/web_public/
+      dockerfile: Dockerfile
+    ports:
+      - 80:80/tcp
+      - 443:443/tcp
+    # links:
+    #   - database
+    container_name: web_public
 
   # database:
   #   build:
