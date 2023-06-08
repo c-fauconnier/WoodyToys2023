@@ -1,27 +1,34 @@
 $TTL 86400
-$ORIGIN l2-2.ephec-ti.be.
-@           IN      SOA     ns.l2-2.ephec-ti.be.     hostmaster.l2-2.ephec-ti.be. (
+$ORIGIN l2-chris.ephec-ti.be.
+@           IN      SOA     ns.l2-chris.ephec-ti.be.     hostmaster.l2-chris.ephec-ti.be. (
                             2023052001          ; serial
                             21600      ; refresh after 6 hours
                             3600       ; retry after 1 hour
-                            1209600    ; expire after 1 week
+                            1209600    ; expire after 2 weeks
                             86400 )    ; minimum TTL of 1 day
 
 ; Name server for the domain
-            IN      NS      ns.l2-2.ephec-ti.be.
+            IN      NS      ns.l2-chris.ephec-ti.be.
 ; Mail record
-            IN      MX  10  mail.l2-2.ephec-ti.be.
+            IN      MX  10  mail.l2-chris.ephec-ti.be.
 ; Resource records
-ns          IN      A       165.22.67.79
-mail        IN      A       165.22.67.79
-www         IN      A       165.22.67.79
-b2b         IN      A       165.22.67.79
+ns          IN      A       164.92.255.163
+mail        IN      A       164.92.255.163
+www         IN      A       164.92.255.163
+;b2b         IN      A       164.92.255.163
 
-@           IN      TXT     "v=spf1 ip4:165.22.67.79 ~all"
+@           IN      TXT     "v=spf1 ip4:164.92.255.163 ~all"
 
-mail._domainkey.l2-2.ephec-ti.be.   3600   IN      TXT (
-  "v=DKIM1; h=sha256; k=rsa; p="
-  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqa1M+LDvsM5QEm4l93i5rLsDQd1VZCbt3a4HBkBhFlk8nD7pcqEBuid+zPDl/9GXv3XEllYRgfO1OftWx7nmP5WkTyWl94oUhs/mDJy9bgoSShFaTQcNKltHad5JQ5J5AJ1OGFejyV83TfaJwQ4S"
-  "8awBK6S0Hq/8v9lw2wTJlJJtcbKfRt3d55y6RbWpKthiNT/luqvjPX+WDgQrosGmZ6DFOK45u0uUK2/lltLWWPeh/aIPRnxLYF2gwSwzwg+8d0lViKhJ7HdVv4bkctr4MlA1aKqf8dSo7IXMelvVhYh/T1697PxLx1AYYO4IGpWmVew0Iu1O38Nmdr4c1BieNQIDAQAB")
+mail._domainkey.l2-chris.ephec-ti.be.   3600  IN  TXT (
+  "v=DKIM1; p="
+  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvwKbH3AaapA+32fh+qcH"
+  "gQPjdKWCemLfMeutg2w7xEgT9lg59XDyMXdwjAaOR3QZZLIAPe4ATFhY0L3yYJre"
+  "mE6Ru4M/PlAj2GdyMRKNz9rOnrBwE5qCqHSHzW9ynXORw/uO2rxDxgudzDQ1chr/"
+  "kCL5KbKVYPc3eiRX8KAhNwC9kusPu77MZvV52M+wKgzgBBoblJvI33tWrY2ySD1L"
+  "y4wsCtWJxfO4MUeBnHgWxSHfQcAc3cbA4ys3TvJLA3MgIbdxVNyuX6gIEfuGnn8d"
+  "hhauNMuqU7nKjT/jhGOdRHXJWtfcET0DUekrSGESPsTJfKp+Ikq1hMVbNKLeJp55"
+  "OQIDAQAB")
 
 _dmarc      IN      TXT     "v=DMARC1;p=quarantine;sp=quarantine;adkim=r;aspf=r;"
+$INCLUDE Kl2-chris.ephec-ti.be.+007+36050.key
+$INCLUDE Kl2-chris.ephec-ti.be.+007+48448.key

@@ -1,0 +1,159 @@
+; File written on Thu Jun  8 11:14:52 2023
+; dnssec_signzone version 9.18.12-0ubuntu0.22.04.1-Ubuntu
+255.92.164.in-addr.arpa. 86400	IN SOA	ns.l2-chris.ephec-ti.be. hostmaster.l2-chris.ephec-ti.be. (
+					2          ; serial
+					21600      ; refresh (6 hours)
+					3600       ; retry (1 hour)
+					1209600    ; expire (2 weeks)
+					86400      ; minimum (1 day)
+					)
+			86400	RRSIG	SOA 7 5 86400 (
+					20230708101452 20230608101452 61962 255.92.164.in-addr.arpa.
+					TX8XfsrFB7qclr0C2Vne8Zj4h3n2qgCCfKqi
+					OiCdi4LvvUIDiYnMwXEcmkh4UITETryKkdZk
+					SoyN/cent99riIkrCL9cTrN7+AowZiNDEdYA
+					0NnsfBFkCuNRjowmc95P2ulroJOY5MFm8GsY
+					AUEJqsER8DP0BP9L8cBiN2PAn27cnp7qdoAt
+					3P6FDdopO419DAnzhg9h8Gwga0IvMuJD86Ou
+					Yj0G4dQLUMPv0rcZLdk5RNh7MmH/GyIklgyO
+					uciB09hJRI+iGaSvo6oXS+/vWwXtKRLTSDU9
+					KqmLSQz57jPnGH7rdsTkfPunSznDfP35IOss
+					9WglPtX3XpxwUZ97Og== )
+			86400	NS	ns.l2-chris.ephec-ti.be.
+			86400	RRSIG	NS 7 5 86400 (
+					20230708101452 20230608101452 61962 255.92.164.in-addr.arpa.
+					acTCFOaGZ2/ltfzCfpMUQZ95H9r3+hPyfEjd
+					oW0DXW7aCNHzIInnvQRw+ZiGkHIcrOstYZVh
+					NOrnyI3KoI2P9t3xGNtLEdauMvoElTIJ4SSy
+					2qdJR21VcaGykjjEa+4p4bZ+X70s5NdhEX2p
+					PTO3AlmLrnLPcbD2zwAmaY2yDA5NeMDS4bcv
+					rmZogbh18dkAl4neKbzzGaoJXw5UlzrqCcxp
+					fRx4eOtVBKCTgX5WurSEbGBj/DaEse4jDJRR
+					Hhbv487Lwnq1le2LOMQd9ZmMcnKc90UpwN7r
+					5Bumy/YxR6DCwP6p4uCaxILB3X2t+dsQHzjh
+					FgM93xN1Os8rTJp4ag== )
+			86400	DNSKEY	256 3 7 (
+					AwEAAbxHHmtJos5/3quGQD6QE3Xutv6Bk9S9
+					f/tOMIUj0v8BrOk2OZLtrqEcVzemujAh81De
+					88dlkHgPlHoqOctxoF47NSs5sfO8CdAmcC8E
+					3btTMa5KZi3PNghxgxoU53OMgRjRggQC8UNw
+					KKJEPUEbuaUvxVx3iLckZbS9v+PpVGwujbCX
+					WnPysuLHUXWPUSEVJrXho++uxA2+NHmb2Ech
+					x2QB+RBTXUA0LCvF37qFPFTWEUXtKjiIsMWs
+					7nQS8oxid11cCkTCWCNui/ujdK4IzPZmbkrQ
+					dxEKOXBKv947LXToK031PkCnh0OL306uQML4
+					a24c1S+XXwtbK3XssIFcwAc=
+					) ; ZSK; alg = NSEC3RSASHA1 ; key id = 61962
+			86400	DNSKEY	257 3 7 (
+					AwEAAcVztrVtE/Px+7bN+zqtQcNGCSCO3D3C
+					3n9IYmiBK1yJdzn1ddQ+KHolYyWpRPJfrcDp
+					lOf+ydNcRX8WfK4g2RK+rD4yq4lNupXcbUxa
+					vKRzV0r0KF13KyPh6AMp1FV7Jtpdj0ySNJaw
+					zTLKHtq4HCDpWLJR3pjvqV2HOMio9Ln85DF3
+					MenXO8tHauN8NNh7wDyfdY/+YzRpeC5rFAVM
+					zO2w7EEGjOpaFxr1/X/02YlBtpAd34Fq48Wv
+					pmma8LUCHWb1liy0qmCH3ADOLLcRpCl6V47L
+					NxQc041tnh4l3yCR/52ivegVqpS6fBfgzuNy
+					eAD1dXF5YJRXGfY5QYAEBE+r+xrVQjGGe4P9
+					fY3l83A/i6Iu2R0qBaJsY+3VgLrGNNYs9FUo
+					JXsWrOVQiuNi1Zvc3jy8l3j0mWBsfyMiDtBD
+					C2j09wA873yELt2Jc//rsUsoCWN2Gi1kRYpR
+					ZDXll9BUGktPYE4uIeERwg5HgeTiHXBxWO1l
+					5A+80UEQzBQLBr7nYWt+xXQT/maERkfeFaEG
+					34bKpcRWNqSLtrxg/dTsikoQQEXR1TDvurY/
+					78agxeO99am/dEGGDbDKUhyhjEGMlk729m7J
+					EAv/tHnKL8VRF7C4HO/1BooMCsAm4og/UIGL
+					j3yumg0dIw4Amv+LchoZ8gXNbUNQWtvTbiSP
+					eFED
+					) ; KSK; alg = NSEC3RSASHA1 ; key id = 45331
+			86400	RRSIG	DNSKEY 7 5 86400 (
+					20230708101452 20230608101452 45331 255.92.164.in-addr.arpa.
+					RQGccjNsRfjw+oh4q3bBhwoqja3mnsCeeKY6
+					KUt2NE1xoAlmRdfy0YJCMk4vIoI+k/UnyN4n
+					tzKE2lykjzJryVl4hAzSmTzwagbOr55LCuYo
+					UWfke0/FvDuIMIKNFa9qXz8V9fEs/5B0ltjr
+					fT508h+WjaJIJAa8DWlX/3EhWrGETEdg5ydI
+					NdkhveC70MIdAK0Izx34mzF1u1DO9xpMrtKr
+					Hho9IbQG/86l0E1tbvIWrjcXAoJ3/+yuA7YK
+					Gs/n3G408655wf3zCx82gte1lEObLRvRw1KU
+					6TQJWNm7BMJffFICeFVBm6Rb5ckf+5KxmxLk
+					FAYxNfOARGJGEWcTTLq95REpET1BrasBkZyV
+					Qz7AC6RwR8kpoi4dO9hST4zisEvWZRs0mgfm
+					F9+Npn7lStEoi3dRh79RtrVA4XckMDRCyZjp
+					KtzCrpDBYf58BBBUxqI9G481HdDBTsR8Mobo
+					DONXGyU6kG9a/LoEU9lSH521khu3Rk1Jpe/c
+					a32lK0SPE67IpMZ+r80dI2bbANnXynmKqU3I
+					tJmJLXsV+CKYYbOJ0swyPxoQQvEpXIxzWbpS
+					4aL0Ku5/5QZhcSagBqs+D2QVLoFyDCzZAG3z
+					5PnpQ3MJ7dIB4UANgTuvlHeV3gwgyY3PQ9VL
+					o5w8/AP0xTmc34G8jOUS7mlSPY0yg6y0hFM= )
+			86400	RRSIG	DNSKEY 7 5 86400 (
+					20230708101452 20230608101452 61962 255.92.164.in-addr.arpa.
+					PYHHE+nRhdjS0lvY+qN5zfbjbDQHYlyFO9h8
+					AJvDoStw7/tTZ3WQaQxJMiaYX7uj46ZHtRHX
+					/4J6hhxCPWvDuViaV1UN2n4pByXZWxj6LeFi
+					BPNLX3ejgqIjVrfI25hzzoWgxCgs8hlwlG4b
+					jqLGRYkDUw9JRDLgZNUaiJdjy9Kc9hFdnLrE
+					fXcW/Bo0JXGyMRjwazB7UQMQz7hAIbL5eQmi
+					AM7kk3wIi7O6VoJjaHvRggpFulNuW9T9Y63x
+					W41rFOLjHG2DbUsnreFfz1y0FMHc1oofzDcj
+					v5VTWOovXyM9U0dQ4oSFv0viMQFqh9J0tfBN
+					+fabeR2nNeTD0rHhYQ== )
+			0	NSEC3PARAM 1 0 0 CB587E38E3D010CD
+			0	RRSIG	NSEC3PARAM 7 5 0 (
+					20230708101452 20230608101452 61962 255.92.164.in-addr.arpa.
+					G6cvBw8a+NKM5OXiG0cPF7iXjsThUnJfnHXN
+					mfb47u4rBs9EjkBewfERlxqWFccUibV4bREv
+					n/Nvw4Eg44ckveqZMO2zCEVV0aw9GFxYuZM0
+					np0N4XRO4/0EFdGRyU0sde9MZFz57jLnQomt
+					hAplVoIsb1p60pvsfupPxUl18glXZF7zZWsq
+					hP+7nBfNcY3R53pzIGaY3waxRa4dRuFMZW50
+					uq1UJ271RtbS7EPhKOGJhPrbQebfLb9rdsJf
+					OjwWwB6zwcq1cfxcYS9LhqKlGkaiErJw6dax
+					fAL7EK6MpzyRFNdj2SCA/hFfxhWZEMKgj8QF
+					wvY74XsikdpSUMhnxw== )
+163.255.92.164.IN-ADDR.ARPA. 86400 IN PTR ns.l2-chris.ephec-ti.be.
+			86400	IN PTR	www.l2-chris.ephec-ti.be.
+			86400	IN PTR	mail.l2-chris.ephec-ti.be.
+			86400	RRSIG	PTR 7 6 86400 (
+					20230708101452 20230608101452 61962 255.92.164.in-addr.arpa.
+					BLGsdN4CNSIgQKsPvDSxwfPBHHLWy0w3ha3w
+					he2MJqXmdvI+3FymYOGVKcfzrJGkt/E5uCyp
+					YpMiKG02wso2HIz2/eyLXbyKYGwiY5M0NIxu
+					g3+OI5+lj9BHgieU7TO7OaT/5PNOIN94+nIi
+					blFb/hXa7kfN1jJ+2FWx4CCao2TnQ1drm4Nl
+					q1tm/pluCwVnBRXsxTcOhngL3Ht3s/BepRNK
+					egbOyBuGrDEUC18WlToL8pWjhVGj656MCSJJ
+					8Kb5nUCvGnt87ampIv9eoHLtokBPmt/nSBlq
+					iXbqyituYTNEWsfMtJ3efGrYI2AmGi08jWqC
+					H3QKozvEKG6B3waifg== )
+5PBELKGN7J1V1T7Q67MDG8I9E3S7VVHT.255.92.164.in-addr.arpa. 86400	IN NSEC3 1 1 0 CB587E38E3D010CD (
+					QODNKHVR9697A7A0K22VGCO805MLNEBC
+					NS SOA RRSIG DNSKEY NSEC3PARAM )
+			86400	RRSIG	NSEC3 7 6 86400 (
+					20230708101452 20230608101452 61962 255.92.164.in-addr.arpa.
+					aUG5v0DAi6uUzQ3jkHseWUKxCe/PPXH8a5st
+					Oz2pcnJl0wTgVESOMIP+IKzepBagWGo9yBUK
+					7xnG69QcRT7gW1504vWRG5OY/zBu0fuFgcO6
+					iwnNK3fShX42E3PCiUvTGxsbv9D3SyJucXIF
+					xIAvp/WvxwPPPDCuHiYp6sz32Ha3/y4YnTuH
+					Kdxv0+qz06AzOi+Jbs0EpbAPqPf9X2x6o4T+
+					G7n6VeOiGK4sX3cDDyALP438oGLf7cB698Cf
+					52U3JpuCFLT3yGYP0GVGZEhnvm3tyCrpxZc+
+					F8keqZe2FibnwRQVS8CDePgeoiqcfmpg1jbb
+					Le7aWRfFyZqzuSjPBQ== )
+QODNKHVR9697A7A0K22VGCO805MLNEBC.255.92.164.in-addr.arpa. 86400	IN NSEC3 1 1 0 CB587E38E3D010CD (
+					5PBELKGN7J1V1T7Q67MDG8I9E3S7VVHT
+					PTR RRSIG )
+			86400	RRSIG	NSEC3 7 6 86400 (
+					20230708101452 20230608101452 61962 255.92.164.in-addr.arpa.
+					sKG/9HqwLfA6j+TbdEN1AZQw7JRGjh59rXPA
+					YC/LlI/sExouLFmmsS9RxFEAiY9uHdIMg9B7
+					RntKQtLyPYYc1YNFGbi4orJsHxWHuPv2/gIC
+					ZKio3waXHTt04gtakogQWYf+BPp511xCA40Q
+					8Z2mB7btOhQZ2ppSVdFotDuZyMuEhypn4Nou
+					8oDJGbPDgxUgLF+DORQxuUvZVJKd+e6pDJS/
+					N8baS24q7tLCc4DAe+hZsyq7PSaqZhe7OMLg
+					lph4eKW6tnWhdJCQ8dp1komBwKhn6lGZjdOz
+					Nvg8XeHD491PzCb0QBHPjm0mypQVdCfX3/8U
+					4MWidDbx8fba+1s37Q== )

@@ -1,0 +1,309 @@
+; File written on Thu Jun  8 11:12:03 2023
+; dnssec_signzone version 9.18.12-0ubuntu0.22.04.1-Ubuntu
+l2-chris.ephec-ti.be.	86400	IN SOA	ns.l2-chris.ephec-ti.be. hostmaster.l2-chris.ephec-ti.be. (
+					2023052002 ; serial
+					21600      ; refresh (6 hours)
+					3600       ; retry (1 hour)
+					1209600    ; expire (2 weeks)
+					86400      ; minimum (1 day)
+					)
+			86400	RRSIG	SOA 7 3 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					SIVPVv0zkrmejMLMY9laq65Q4TrLyBv88Mmy
+					cp3vKRi2O3/vZM2OiWll+0cx/aFSj1CUy2k7
+					t/oEnOaeLnQjWoOZh7UINiHbhbngvXsDBDgm
+					oCLqhFa05V74kM7g8MDXRGxrDtwoyVoqWsSu
+					BQ5Nbecpx8awcu4XBTK0v8WKlt67LOvPGXzu
+					qlA7xaW0H/2ba91yeGeo714u1Yx22BolxeL4
+					F4/ZnCuDwHtVP+euSOwMbf/ykHVXLq/w+M1u
+					xrJvYZxLKz6lB5YR/TPLG62etszFP7crN+Ot
+					Y5xGcOSF+vVKPTqgXgptK6AfKsCY8Yf7cD3l
+					JlR/IQy91HtFXGWZtw== )
+			86400	NS	ns.l2-chris.ephec-ti.be.
+			86400	RRSIG	NS 7 3 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					RmYix1/ogmRKah+OD97cJmOK388PxtuZRla7
+					QeM79vPpFh0f8GW8U1HFpEo8eTQEMtc506tM
+					+y7D3WKbTz9CZxVbWqO3+JsRnBQbMsNEnipD
+					rnnIKEE0Jca2yKUOIyxPLn4wbgfYi4nG7+H3
+					ioHSN8fT3Ncidm7WVXRNQRJbNimYr5YFteFB
+					xLPu8NA2nXKIpLhXduzfPrSQ8spnNGgUUiPG
+					dnVuqn2rFifV0+Bo5njTiWu1gWHDVVkizAiW
+					cUIs/iOjcxKtuFCSV7HseHAlCah7iYPYCK8F
+					P/NX1DHSVAwGX88h5hNIaUXqTZDPRU/GnMnK
+					GBJfeMcuBFkSm0TbAQ== )
+			86400	MX	10 mail.l2-chris.ephec-ti.be.
+			86400	RRSIG	MX 7 3 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					M4ZigOSmBXOvq7D4uDhZN7LmLf2mrOeR8njq
+					uSvAH9Q3WF65fFg3/3tRplWnFcr43y64/H03
+					yx6d5j/J8XbX22PMswQsREWuwGAsJ1ITcuOl
+					JTA5S/KOUqZcSXq22dkxUqQH+VVqhh9UY40T
+					yHskZDBJybiWLqN6HC0wmM6Q0MOcH05sGZc2
+					xjABbZbEn2WnwW/H9LRgj+lRTa67YWfj68B+
+					C37zBFGizJXgtrmkXz5c+N72OmPbX2QyCzcH
+					s3slGNUJoM4roJdXwv+9+IU+63DFpieoZzb6
+					EgOBlpGj4SpyCZW2JOqzM/+6Sr8LqToQwTXz
+					JDgD+Dqns+Wt6Tuqdw== )
+			86400	TXT	"v=spf1 ip4:164.92.255.163 ~all"
+			86400	RRSIG	TXT 7 3 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					wgwmffWg7O61BJeHGTXAutnVchDDsYL1Bh8p
+					jTkaIckVnMFcafhEEO9SgDnIC6JnP+UziBdB
+					2kVzIFekPUS7IQAofFAk5r489gJHrkAyitrl
+					fYaIHWRa7qXRdMZBiww8ZMV4hdlCMUVIhRe6
+					i+Udy0M+HBhxDiyJ0fThVrBbM9aNQ6AK3bD7
+					kLpBqT+a89Ep3FUsbtiX4zUfl+bNpuVXPXCc
+					4+D8a4DRXaFSnU3T2+8Wf2zTDk/Yxdqjrxgk
+					MfFOSBL5BusUM3wyohL/EPpfhL9wZqVonGQ6
+					cBAq9UKBN+jdWgsWaqTiH72VbThxRdz48eK0
+					Ix4odIuHxJbC5EezBg== )
+			86400	DNSKEY	256 3 7 (
+					AwEAAcyq95tOOECF59yht/BgSwCnUlOD4QeL
+					iW7p0BLUgOL9v5hV/aijuW/wAW9O7QaL9sSa
+					pBhpxPaN4Idz5uA5qh99RoHuNWttpC9ZQNHD
+					pdnMkCCzFaQ7Zz3tdn/WxCvlM7dsn/VRg+Sy
+					2sO593OT2Wza+LZw7gx2Z+7V0zZPtoA4xArc
+					pivJE5GTVf2rd7q9+mkORF9IOGdDxjVwrGVK
+					3+hDO4ubqnupsvTG05oMQmx1Dw8tL8JYMQxL
+					9CeffdSgugpwkTMQI/jQ11R/GOgJBZXOJHri
+					o19k0Qgu95TEto+5L40zteUpgMFe7fjfzNZ7
+					331Qlvb8SSBGdqDtWkm9j8U=
+					) ; ZSK; alg = NSEC3RSASHA1 ; key id = 36050
+			86400	DNSKEY	257 3 7 (
+					AwEAAbVet6kfnUPcxOv22jVx/u5qZhlH3qNG
+					Hv8shLnMD6BT0jyJKkt31I/uO0rV1f6HqWRb
+					01WsVWPG6JMZcHjk0zG56DuRliSYxBX26kbE
+					zyBCMgtpI/sWmnOtADVFRoduCJ71ezEWc2Xj
+					EO13ArBIZ4eFzL2L+c2VjeqqYYrdeNz4/Sv4
+					D/wANS7WflMkGXiOTcH7kf4G1Gw8x+WyN8J/
+					26AYnlvPydRr5lYi+L+WLQE17nfZZ9BgB1nr
+					V7Fki/9anvYxdj3vMbYbuyeQbrKFoyeIe21z
+					c8GNAD3QqfCQbdvyshqiY90GnlRLkGD8jAan
+					v3nEWjZN9qvn8VLGP1Mbems1D4EmJhXBkXlh
+					vWscNn5WTYqntcVxTY8CHXqYlMAFwxnmBOdh
+					IyKrLwBaOSsj3V5vNsj1pV2nYy5yO6DDfFWN
+					hnnP1ZjOcLIttD1qGrP3GVnR8pdDA4A3eeyw
+					SVjWzsfVfqkM0ngaQ6i7q1ak+Yz+QOwQFSCX
+					JxG1GmudVXysQ88XT4N3BL5bAI/BJ8XrKqKn
+					odji/EOJbtDT9OXvV9UgBHMh/f87vV6gkfSE
+					Mv5MFOK8TTNE3gJtNGOGdRNTVr6ODLK0stUs
+					JokwtSeh4Qv76rcHyVzoifEE3vhXl6/JuGDj
+					h/Sd8cjXwZDHvV70Nf6vFwXSGVkJs3NGd9Jb
+					FpjL
+					) ; KSK; alg = NSEC3RSASHA1 ; key id = 48448
+			86400	RRSIG	DNSKEY 7 3 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					DqB6GGnhhE5UcZ9OnyLm9ffsDxK6zUiwWLvc
+					KTx+4ttpmdFSTLJpZ1Tzru0EwjKsFxHy2xOU
+					8B56QPE6I3hLgS+HjnRFCGTq1dB1FGJ622qz
+					U2OS3lIc+t/TVwF29+TF9hL/HHKYVjOqn1Fr
+					JBu+6mamOxuUG4v3yUZRrDc0AwkevGVXSCo6
+					xmr1YAMpa8MMaZu/Vn8fxjewe6AMTRTL9Zwq
+					gN+lif7/eX/HjkTHhYj9yE4Qwj/aNjkaQ9Mc
+					SShilpFUOAlK6c9g6Tbpy2LkS4Y+T+ReY+Tv
+					H/CyKrPrrOlQC7ZkxzPGrS+KYmvmVM45go6f
+					DA2y8X7xemaecilKwA== )
+			86400	RRSIG	DNSKEY 7 3 86400 (
+					20230708101203 20230608101203 48448 l2-chris.ephec-ti.be.
+					KulrhucdfWPlsSXBQrYRzf6+moO9kzfyE2Kz
+					jQa5Umqxxk28+ICMz/zNUyIYvtEUcNqBtm9d
+					A8Ilp3uWLsxl6z5SkUKrB/kUcVEDNkCAscd2
+					TnleOqQMkIgBq/NBGuV18CaYZPPIP88AAhCI
+					TNf/TjlloSMe+QoVmuDWxcoyIOMjuO4EoE7v
+					0DavLt0pxaIkmA/noSGkVmhP9DUQxIBwsvJr
+					FqgJe8dMD2UMMq9CvG/E0mQFleP+FlvMo1rq
+					LX4+H2F/5u+7muKpIMUpZdEPaCdMdOc5Po1B
+					lfPPkhpLjXgwCHSZFdJpR0qDi3FAaXTHyptL
+					QDqFPcRK+z2PsKDkMmeTVrFXPXHTLI8ZBXTw
+					/q1+GJUBuWsRHCozRMCe+YNPozU2xZskvZYS
+					cvBlfPGQkfKTPDMDUSzj7/NmV3Mt8pqf6a9V
+					18gyuaiWu5vruaDoMZRk0/ZF+ig/1XwZ2qza
+					MgCawXDF+SQstZDOGyCbYM22nhPRlWaxOdMc
+					U8jA28RNiENbL8V3euGoRcsLJn/oYZF0mBQi
+					0bC+8ChpNMbwuADAjDs3a7uvjq/gbRKTCosD
+					HhOsaKMH1zr47RRY+RbnjlGGtM5/Hc+dyrNX
+					hIcJFmwQZwSYKXvlKf9FKth30DnlsfYbo3LJ
+					al8k+LabAqkf7mI9MVa1LWC9TgzQQm8Czlc= )
+			0	NSEC3PARAM 1 0 0 9040DA50B2268974
+			0	RRSIG	NSEC3PARAM 7 3 0 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					maUXLzPY2l4Lj1kBoGVwgvqmdlwYaEq71CVM
+					vHDSki11XaCJZ+2rDILHtybIfPmOos7YKtHq
+					uHX1H2yfg3iRcVS05BibnfuIXdDCX04gXNBW
+					gNbTl9XAvSw9/TvEbhWnIpMBWG2VThQWgvXA
+					DV7mhm5tkSXLcq15MzPztzwkgMa4mXU7xZ0s
+					PWB3bCUyfK+bFGFMLrdqGj4K3r5NC7tRh2kn
+					os0m6kJx0opyhKksaD3ByjSHNT5tsWpEW0nw
+					dxy27Wfn4UBaO+g4syjyBX310jSW6CzaLI0x
+					h7goRSc7PcUXOBbKaQ88DMeBawQV2mTMcJpy
+					ZyNixZOaaTLFM9e08Q== )
+mail._domainkey.l2-chris.ephec-ti.be. 3600 IN TXT "v=DKIM1; p=" "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvwKbH3AaapA+32fh+qcH" "gQPjdKWCemLfMeutg2w7xEgT9lg59XDyMXdwjAaOR3QZZLIAPe4ATFhY0L3yYJre" "mE6Ru4M/PlAj2GdyMRKNz9rOnrBwE5qCqHSHzW9ynXORw/uO2rxDxgudzDQ1chr/" "kCL5KbKVYPc3eiRX8KAhNwC9kusPu77MZvV52M+wKgzgBBoblJvI33tWrY2ySD1L" "y4wsCtWJxfO4MUeBnHgWxSHfQcAc3cbA4ys3TvJLA3MgIbdxVNyuX6gIEfuGnn8d" "hhauNMuqU7nKjT/jhGOdRHXJWtfcET0DUekrSGESPsTJfKp+Ikq1hMVbNKLeJp55" "OQIDAQAB"
+			3600	RRSIG	TXT 7 5 3600 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					gyx9bWjPD5Opabu9POfMgX5nB7cMvmbmMEsG
+					kMGOwMVD760N22Fepk+WLwndqfCkNc1Yv74f
+					fP3XjxrYe+HyCCxGP7Wx1LoaY6ysHvil5lVA
+					G85KwtIKx2NYh2iBWUX0mS6EAEseIzMiPu0J
+					c4juc+oEB2Wa4Ki3HrV/P0x70/eGPHOlQknq
+					i3PPj+IWm8xUEDLlOOppedix3O7Qe/UPdp7l
+					qv6MLmfATJDjKjbECgMU5m895j19DPwC+Eyk
+					vPU2NBReNQR3qaC5R/XvC3hyHLYqvu0EV7xZ
+					4lDz5gT3CKkkoyb+WtWm9icoblyJuzZI7GYP
+					wtV/RsCvLLDqetU1Ew== )
+_dmarc.l2-chris.ephec-ti.be. 86400 IN TXT "v=DMARC1;p=quarantine;sp=quarantine;adkim=r;aspf=r;"
+			86400	RRSIG	TXT 7 4 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					HYgK9P8VK/F7kF91bXwuwAq16NDsvkwUJ3D+
+					RSXbtf6VpRtRBkjMOGfQ5TF66MkESZYM4+/i
+					YLZr7/Mb1vD22K2Rj+HrKuf8Z4oBReBDa++k
+					JM7QIGUEFlk5VP7rA/1UftHvxCE98jiwHAS1
+					sD7KkiyMKEOHhAlRWUNCuPhVIXXK20S3rswt
+					cJQKLLuhuyjrH8bf8GCMPincbGklbCxv4mgm
+					bnnqKGG3gPsmVNwegFAhvoZeogHBD+bubd1y
+					OHWs1H5zAJ6wAFAD1423MI+n7FryrgT/GKqj
+					1B1OPg8sLQrqs8tPDeaf910fWKHgH3Y7qu+z
+					Z8ioyYaBDs4j25RqOA== )
+ns.l2-chris.ephec-ti.be. 86400	IN A	164.92.255.163
+			86400	RRSIG	A 7 4 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					hKb3b+1jfUMdmL8MyBc+s1j1Rf7Kv2gITMim
+					2MRJ50x5sQtlVoJwb2kmApH+tq5KW5J/dL33
+					u73ME0E+D74M2CH0vWDrDi9ZY9dpvjtp6UOq
+					8g+79jXTPlpeHZrDFinB/rcyZ+LuyU2piXr9
+					SRWKaed09roOUjqMrDUriKo6/b/p15Y3Cakt
+					8lqple0bP7rWNlFHbf6RWj6zlvF/tFJSmkYL
+					xIsMb2FJkL/mrv18q9vg6arSCsm8P2TV6Uzp
+					NOetYQhpTzyRze6YgeffF5hW+zQO3hpz7ooy
+					/RYRDaQWFB8tDn2BUSHqX/CfthSCuQ6EYvJk
+					jLdSbfeSSQa2OP9rjw== )
+AE18723KQSN443DGUEOBR3S0V3V1A6HS.l2-chris.ephec-ti.be. 86400 IN	NSEC3 1 1 0 9040DA50B2268974 (
+					DOOOEBMTK2MK0JA4QNNSHIP4KVABGNBN
+					TXT RRSIG )
+			86400	RRSIG	NSEC3 7 4 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					iGQHX85NBF3EnsmsuReOo7XwWfV2Ik73kG+m
+					MDKYcFFRREg5xkbGBCipcXaJHerHafYw7Nbw
+					4ID4FM3cP20tmaZeN47pQm5/+858JeTSO2ic
+					f+S9SrmAat0W97i+LJVy3FejOC/bVHhyvc2d
+					DbgRkrKKICY9kNNvjJrxZk5OvJlvzCha+bu0
+					Bc6srjaxL8zx0meTZYhJCBTm0hVO98r/LT3a
+					DvnSycgNnUYXHJis7YttdOOvumHjDxTSwDuX
+					uIonlU3gZKLzKhhC+qIQtYgj0ifV4yVTsWT7
+					Qr/pCQdYz6sEUhSfxEAdSjcOLiaWfhNtaWE+
+					Evyd1HS2fSA3jdq4eA== )
+EAPT59CAJ20N0IQN7L47LAPEQLECD8KO.l2-chris.ephec-ti.be. 86400 IN	NSEC3 1 1 0 9040DA50B2268974 (
+					ETQ78IC38UP7B73SE20LRTMHSL2G73QS
+					A RRSIG )
+			86400	RRSIG	NSEC3 7 4 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					GVKX/MXcoRVsDTAEjnF6mXXtNLoPhpz9/4zh
+					MZ/ZXtS9bB4/1xfXx0vpgbJmRtxoqTlkCWg4
+					AY+4D0Zj3MtePbepYD0Dn+IXuucKkOT7kcdM
+					+KXnjU8TndQBX9cfaRB2VdHaXACNqwlwYnRT
+					OiIEgJC7TbopwyUFd8QHvfvYwTUw/Kea7JOc
+					/Ly5AUtWBJNCv1KWqpaFvN5GbtuPVUa9eueZ
+					1dijsYGp4eJYUgUq8KE7PVJHPNjL7dQCYUrS
+					kbbsUfg4g+XHPypTp92moMp+Y7lv3PMQ0Ht2
+					CdLqOgKBE4H0NFly9kUrTwFzG1qS7PVy1sVP
+					bsgIsAEn/Pb29W5M2Q== )
+mail.l2-chris.ephec-ti.be. 86400 IN A	164.92.255.163
+			86400	RRSIG	A 7 4 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					XIZmlQEDqhcGEcbaaZyZNM/SxQcZwq9dXUww
+					ghFuwq25h/dGwOvxFiSQWkZktJm0IA/RApRn
+					CKCHGVu7FChUKukcJyHuSzMdcNHDd7KdwGVH
+					faMJ6VPvCycJ+TmQWXsDpAzvCtInkDpjNsbz
+					mOyPbaTxHIwhe7nbiLiB71LhXV3hsWIIvlep
+					uqq2Fx7lTks7fnhlypb7DYCzh+eXibyWp0C2
+					Ea6QQnwJ3U1e+l5zNvMaPA6WdelXUHk9Tiv0
+					zUeePSPQGspKHv/vLcbALx5tmAVKXW6qwE5f
+					lH3bFaCZxFKUqvV+VqBn/JDh2TJkXn0O8Wxi
+					/U1wVoiN9BMgCOOdew== )
+www.l2-chris.ephec-ti.be. 86400	IN A	164.92.255.163
+			86400	RRSIG	A 7 4 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					xe8CaY9+67Oh9ZzUyvWwyc0nYmhj2Gvzt/zW
+					yNCA7t+dYZrFejl38cxVVMcZpRA3TX/jJfHD
+					z1tJCTf1EudoMi3QVnmvKQQ2ue/P+NLDLG7e
+					5TJOq9kSDI7JgTDpAyp5FVWXeNoNbkRnrXTI
+					RFKhV2IMvgYVHNNMmroUgM0QAMs29Ew+glT6
+					pzIiEivQuLw5UH4cEKV6gSpotT3tshKJ6tZT
+					iFJMtHYqbo8flHF5JY79Wy0BF6UVWQsM6pir
+					20WOqNno0p3TsEs7VPktDHp5uZ87P2cmVURS
+					SUfLKlY74uES+4ORTQtnJ+YpANqQFoXgOlod
+					UlQ5eoSCwXJ3o+Mk5w== )
+FFFEFLJIAL345DI4CBH5F7FUAAPB5FM8.l2-chris.ephec-ti.be. 86400 IN	NSEC3 1 1 0 9040DA50B2268974 (
+					GLFLLC8KK0PL7E5UUNHBP0UNL5OSKMLD
+					TXT RRSIG )
+			86400	RRSIG	NSEC3 7 4 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					EUbmcPlqMabjGkSM8r/CmAkIKzc88z2/uT20
+					lzu9mn8+ETu6HKD8ZaIL/6GT+4eQwlSyODsW
+					Gr2SYtPZean3bvDiEZp0KThaThXpUhG8UehK
+					CQVCsdGruXGFLHu8ECfjuH8EXLZnfXcOq9Sc
+					Dt5+2pWOWVFYOIQ15QfV6B9TNftL55dNEtIl
+					f5823gQ0TI8rSEVBqEWeOMrVlCWhlszibjAn
+					LufdU714r7Oco2mkkNcGkTDhrhVu7U7cLWKx
+					sHsBKS8ScEF//ABjfJNdxM46Et5018X5ZzV+
+					oaUfhbnFqNzGvKDzoH78Z3F1otDRidYk3wjv
+					uiY+um3tRPi/L3bd7Q== )
+DOOOEBMTK2MK0JA4QNNSHIP4KVABGNBN.l2-chris.ephec-ti.be. 86400 IN	NSEC3 1 1 0 9040DA50B2268974 (
+					EAPT59CAJ20N0IQN7L47LAPEQLECD8KO )
+			86400	RRSIG	NSEC3 7 4 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					RuewyRubjOZ9MpMDzmhXQJHk4kDnuOIlzD6f
+					go2GMtACE1PafSxTrPhn3Tr2qtMZhMusTJI5
+					NF2sNSCm9O6BqTGbPXP3D2AR6R1qvZZNTNrY
+					lJNdck9LLyOXcetycnmk4udwTPERuu6b2Oro
+					NpiZUmWpTItk5QW+JtVNZX7eeRTX7WvLmFBJ
+					h6rbqw+jEbqlcaSDxAJG5v35FoKurJRiQUOv
+					rSTzys5+HXdg+sB4Fi9DIskq/+NYxqAdpdWr
+					65JeH9iU5/A0bJjVHq0RfLMcWDALYpGxpB56
+					mXzgv9wiGv6ogRWVkpDj1DYjDlnK5d1Q1q+P
+					pT49g0dFw+vatgoiSA== )
+ETQ78IC38UP7B73SE20LRTMHSL2G73QS.l2-chris.ephec-ti.be. 86400 IN	NSEC3 1 1 0 9040DA50B2268974 (
+					FFFEFLJIAL345DI4CBH5F7FUAAPB5FM8
+					A RRSIG )
+			86400	RRSIG	NSEC3 7 4 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					gOeewfwIf6AlCI5XoZiSlDWLaQgpOcAeleH8
+					oUcEkWCOoIa8Q02ZoaaIteGLZD3CNkD5d4k5
+					yMwg7px7lgYEkudjB2fZ6MBUoT/553axHYTs
+					kZZUE1H4h5xMst1qIr3Ug4nWRZpTulau8zuD
+					bXNre+2RR2IPVF7SmTxPP27Zrm9SNwAHm7+b
+					PBKAgkkSHOvDzpl5vwJLJ947xL+HC6IJWPe3
+					8FB/oKGAPvnwdEEMcJmHMw6qT1RdYZXZoiLx
+					NCeqp/slMGt5dZ77WfKZC8Z2heItDgHLL/GR
+					gpP7Jl+ubuQi04pcKva0q0wwu9IUIqG8HWVa
+					svfg+9y2Flzb5Kog3A== )
+GLFLLC8KK0PL7E5UUNHBP0UNL5OSKMLD.l2-chris.ephec-ti.be. 86400 IN	NSEC3 1 1 0 9040DA50B2268974 (
+					NF1KBGS1D92SK13QHORTQ1NP1ON2HFPV
+					A RRSIG )
+			86400	RRSIG	NSEC3 7 4 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					ioCO682aAbq6m+RpiD9CVOhqCABxDvs1e2Gn
+					7G8O2y3fXQKxWwl9/dD/EZlhCZNijd4mMatX
+					GuFV7dqiR6hZlW7toEz45GKLnrpIJuUeDRi1
+					144ZGwwNwF+CD3e7kFbon52YSRW6jSvYpqN4
+					mKlQT7Ypre/RGCT5mF6IvrSpRI95zfd5tkPY
+					I71hu8ZGMKt/2SZYfzuAvfhQdgfPqm4RkDfC
+					nBDJreySfQ+jKsSLyLBNQB/oB9rFNRacvQfQ
+					7XNB6ql2OPOlI3+cCVCKnADefwh1Asl/BEXQ
+					5PDkhV2FjHV6mW+z86M3/sTpePBrg0/wWrVy
+					+q7ChoVVzh1bnH46FA== )
+NF1KBGS1D92SK13QHORTQ1NP1ON2HFPV.l2-chris.ephec-ti.be. 86400 IN	NSEC3 1 1 0 9040DA50B2268974 (
+					AE18723KQSN443DGUEOBR3S0V3V1A6HS
+					NS SOA MX TXT RRSIG DNSKEY NSEC3PARAM )
+			86400	RRSIG	NSEC3 7 4 86400 (
+					20230708101203 20230608101203 36050 l2-chris.ephec-ti.be.
+					cmap6HSNggfvrjotr4JJODO2RSwYSKTKN3/I
+					eDopvM/+YRVwNkv5qoqia567QO8L6Ra+x7M0
+					GiPIfuMAQ26qpdlI63us1msht/xSzyz/BkJr
+					o0YUfrSH7Au1H9aHcuHv2gGeGw5M878iE+SC
+					7NjCKK/Bw3H3Wh1c5ebJrtaL+VJk7PE0D3Z9
+					C4mgY5DxQRu3HaizjX4g7/gf6U5eLqNY+AfF
+					QhPHLE4VrysOWNRG5gJyBVdMFlVvmKf/V63e
+					7xsNRFhrBgoNIZLy5UGVtJcs4ZqWOEdRUhuF
+					Byt7n66lvsfab8sqXVHXp7T8dqoScw3EagpX
+					7JqZN53T2lC4+6EcSQ== )

@@ -1,17 +1,19 @@
 $TTL 86400
-$ORIGIN 67.22.165.IN-ADDR.ARPA.
-@           IN      SOA     ns.l2-2.ephec-ti.be.     hostmaster.l2-2.ephec-ti.be. (
+$ORIGIN 255.92.164.IN-ADDR.ARPA.
+@           IN      SOA     ns.l2-chris.ephec-ti.be.     hostmaster.l2-chris.ephec-ti.be. (
                             1          ; serial
                             21600      ; refresh after 6 hours
                             3600       ; retry after 1 hour
-                            604800     ; expire after 1 week
+                            1209600    ; expire after 2 weeks
                             86400 )    ; minimum TTL of 1 day
 
 ; Name server for the domain
-            IN      NS      ns.l2-2.ephec-ti.be.
+            IN      NS      ns.l2-chris.ephec-ti.be.
 
 ;Resource records
-79          IN      PTR     ns.l2-2.ephec-ti.be.
-79          IN      PTR     mail.l2-2.ephec-ti.be.
-79          IN      PTR     www.l2-2.ephec-ti.be.
-79          IN      PTR     b2b.l2-2.ephec-ti.be.
+163          IN      PTR     ns.l2-chris.ephec-ti.be.
+163          IN      PTR     mail.l2-chris.ephec-ti.be.
+163          IN      PTR     www.l2-chris.ephec-ti.be.
+;163          IN      PTR     b2b.l2-chris.ephec-ti.be.
+$INCLUDE K255.92.164.in-addr.arpa.+007+45331.key
+$INCLUDE K255.92.164.in-addr.arpa.+007+61962.key

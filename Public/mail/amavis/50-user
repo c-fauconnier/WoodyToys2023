@@ -13,7 +13,7 @@ use strict;
 $enable_dkim_verification = 1;
 $enable_dkim_signing = 1;
 
-dkim_key('l2-2.ephec-ti.be', 'mail', '/var/lib/amavis/dkim/dkimkey.pem');
+dkim_key('l2-chris.ephec-ti.be', 'mail', '/var/lib/amavis/dkim/dkimkey.pem');
 @dkim_signature_options_bysender_maps = (
   {
     '.' => {
@@ -33,7 +33,7 @@ $sa_spam_subject_tag = '[SPAM]'; # chaine ajoutée à l'objet de l'email
 $final_spam_destiny       = D_PASS;
 
 # Pour ne pas en dire trop sur les armes employées
-$X_HEADER_LINE = "spam & virus filtering at l2-2.ephec-ti.be";
+$X_HEADER_LINE = "spam & virus filtering at l2-chris.ephec-ti.be";
 
 #------------ Do not modify anything below this line -------------
 1;  # ensure a defined return

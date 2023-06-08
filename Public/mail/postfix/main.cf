@@ -1,6 +1,6 @@
 # Define server identity
-myhostname = mail.l2-2.ephec-ti.be
-mydomain = l2-2.ephec-ti.be
+myhostname = mail.l2-chris.ephec-ti.be
+mydomain = l2-chris.ephec-ti.be
 
 # Outgoing mail must use this as source address domain
 myorigin = $mydomain
@@ -34,7 +34,7 @@ smtpd_banner = $myhostname ESMTP $mail_name
 recipient_delimiter = +
 
 # Network from which we accept smtp connexions
-mynetworks = 165.22.67.79 127.0.0.0/8 [::1]/128
+mynetworks = 164.92.255.163 127.0.0.0/8 [::1]/128
 smtpd_recipient_restrictions = permit_mynetworks, permit_sasl_authenticated, reject_unauth_destination
 smtpd_relay_restrictions = permit_mynetworks, permit_sasl_authenticated, reject_unauth_destination
 inet_interfaces = all
